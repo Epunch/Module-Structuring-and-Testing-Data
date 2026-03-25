@@ -21,3 +21,6 @@ const dir = filePath.slice(0, lastSlashIndex);
 const ext = filePath.slice(filePath.lastIndexOf("."));
 
 // https://www.google.com/search?q=slice+mdn
+
+console.log("Dir:",dir);
+console.log("Extention:",ext);
