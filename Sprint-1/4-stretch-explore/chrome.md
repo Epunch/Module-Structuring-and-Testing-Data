@@ -12,7 +12,14 @@ invoke the function `alert` with an input string of `"Hello world!"`;
 
 What effect does calling the `alert` function have?
 
-Now try invoking the function `prompt` with a string input of `"What is your name?"` - store the return value of your call to `prompt` in an variable called `myName`.
+Effect: It displays a modal dialog box (pop-up) at the top of the browser window containing your message ("Hello world!") and an "OK" button. The script execution pauses until you dismiss the alert.
+
+Now try invoking the function `prompt` with a string input of `"What is your name?"` -
+
+Effect: It opens a dialog box that includes a text input field, a message ("What is your name?"), and "OK"/"Cancel" buttons.
 
 What effect does calling the `prompt` function have?
+store the return value of your call to `prompt` in an variable called `myName`.
+
 What is the return value of `prompt`?
+It returns the string that the user typed into the input field. If the user clicks "Cancel", it returns null.
